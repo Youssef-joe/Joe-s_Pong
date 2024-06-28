@@ -116,7 +116,7 @@ function checkCollision() {
         ballYDirection *= -1;
     }
     if (ballX <= 0) {
-        player2Score += 1;
+        player1Score += 1;
         updateScore();
         createBall();
         return;
